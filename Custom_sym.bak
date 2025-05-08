@@ -1582,54 +1582,6 @@
 			)
 		)
 	)
-	(symbol "OMGS3_programming_pins"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "J"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(symbol "PAW3040E1-TKMT"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2509,54 +2461,6 @@
 			)
 		)
 		(symbol "TPS73219DBVT_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -7.62) (xy 8.89 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 7.62) (xy -8.89 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -7.62) (xy 8.89 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 7.62) (xy -8.89 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
 				(at -16.51 -1.27 0)
 				(length 7.62)
@@ -2595,6 +2499,17 @@
 			)
 		)
 		(symbol "TPS73219DBVT_1_1"
+			(rectangle
+				(start -8.89 7.62)
+				(end 8.89 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -16.51 1.27 0)
 				(length 7.62)

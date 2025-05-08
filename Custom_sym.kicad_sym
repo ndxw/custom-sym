@@ -2461,54 +2461,6 @@
 			)
 		)
 		(symbol "TPS73219DBVT_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -7.62) (xy 8.89 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -8.89 7.62) (xy -8.89 -7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 -7.62) (xy 8.89 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 8.89 7.62) (xy -8.89 7.62)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(pin power_in line
 				(at -16.51 -1.27 0)
 				(length 7.62)
@@ -2547,6 +2499,17 @@
 			)
 		)
 		(symbol "TPS73219DBVT_1_1"
+			(rectangle
+				(start -8.89 7.62)
+				(end 8.89 -7.62)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(pin power_in line
 				(at -16.51 1.27 0)
 				(length 7.62)

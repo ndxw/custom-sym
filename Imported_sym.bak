@@ -28,7 +28,7 @@
 			)
 		)
 		(property "Footprint" "ADXL345:PQFN80P500X300X100-14N"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47,7 +47,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56,7 +56,7 @@
 			)
 		)
 		(property "MF" "Analog Devices, Inc."
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" "105924"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -76,7 +76,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1 mm"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -86,7 +86,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +96,7 @@
 			)
 		)
 		(property "Package" "LGA -14 Analog Devices"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ADXL345/Analog+Devices/view-part/?ref=eda"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +116,7 @@
 			)
 		)
 		(property "STANDARD" "IPC 7351B"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -126,7 +126,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -136,7 +136,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ADXL345/Analog+Devices/view-part/?ref=snap"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -146,7 +146,7 @@
 			)
 		)
 		(property "MP" "ADXL345"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -156,7 +156,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.05Hz ~ 1.6kHz 14-LGA (3x5)\n                        \n"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -166,7 +166,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Analog Devices"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +176,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,7 +186,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "ADXL345"
-			(at 0 0 0)
+			(at -1.016 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,8 +197,8 @@
 		)
 		(symbol "ADXL345_0_0"
 			(rectangle
-				(start -20.32 -15.24)
-				(end 20.32 15.24)
+				(start -20.32 15.24)
+				(end 20.32 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 12.7 180)
+				(at -1.27 20.32 270)
 				(length 5.08)
 				(name "VDD_I/O"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -25.4 -7.62 0)
+				(at -25.4 -5.08 0)
 				(length 5.08)
 				(name "NC"
 					(effects
@@ -316,7 +316,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -12.7 180)
+				(at -2.54 -20.32 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -352,7 +352,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -12.7 180)
+				(at 0 -20.32 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -370,7 +370,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -12.7 180)
+				(at 2.54 -20.32 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -388,7 +388,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -10.16 180)
+				(at 1.27 20.32 270)
 				(length 5.08)
 				(name "VS"
 					(effects
@@ -406,7 +406,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 5.08 0)
+				(at -25.4 2.54 0)
 				(length 5.08)
 				(name "~{CS}"
 					(effects
@@ -457,6 +457,167 @@
 							(size 1.016 1.016)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "AP2112K-3.3TRG1"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -7.663 8.6476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "AP2112K-3.3TRG1"
+			(at -7.6489 -11.6507 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "AP2112K-3.3TRG1:SOT95P285X140-5N"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "2-2"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Diodes Inc."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "AP2112K-3.3TRG1_0_0"
+			(pin power_in line
+				(at -12.7 5.08 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 -5.08 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 0 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AP2112K-3.3TRG1_1_0"
+			(rectangle
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
+				(stroke
+					(width 0.127)
+					(type default)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)
