@@ -213,7 +213,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -726,7 +726,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at 0 -20.32 0)
 			(effects
 				(font
@@ -1338,7 +1338,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SW"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1453,7 +1453,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "Q"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1586,7 +1586,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2037,7 +2037,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2389,7 +2389,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at 0 12.7 0)
 			(effects
 				(font
@@ -2503,7 +2503,7 @@
 				(start -8.89 7.62)
 				(end 8.89 -7.62)
 				(stroke
-					(width 0)
+					(width 0.254)
 					(type default)
 				)
 				(fill

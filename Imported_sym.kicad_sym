@@ -9,7 +9,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at -20.32 15.748 0)
 			(effects
 				(font
@@ -468,7 +468,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "IC"
 			(at -7.663 8.6476 0)
 			(effects
 				(font
@@ -831,7 +831,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U1"
+		(property "Reference" "IC"
 			(at -8.636 -18.1609 0)
 			(effects
 				(font
